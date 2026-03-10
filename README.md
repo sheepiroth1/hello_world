@@ -1,5 +1,5 @@
 # hello_world
-a simple cpp code that outputs time and the text "hello_world" to a file specified in the command line arg
+a simple cpp code that outputs time and the text "hello_world" to a file specified in the command line arg. useful for testing scripts or code that runs another binary
 
 # compile
 ## Windows 
