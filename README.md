@@ -13,9 +13,22 @@
 ## Windows 
 - download MSYS2 and gcc
 - set the env variable to the gcc downloaded by MSYS2
+<<<<<<< Updated upstream
 - `g++ file.cpp -o file.exe -static`
+=======
+- `g++ hello_world.cpp -o hello_world.exe -static`
+- for `hello_world_minimal.cpp`, use `gcc -o hello_world_minimal.exe hello_world_minimal.cpp -Wl,-e,MyCustomStart -nostdlib -lkernel32 -Wl,--dynamicbase -Wl,--subsystem,windows`
+>>>>>>> Stashed changes
 
 ## Linux
 - install gcc
 - `g++ file.cpp -o file -static`
 
+<<<<<<< Updated upstream
+=======
+# usage
+- `hello_world <path_to_log_file>`
+
+
+
+>>>>>>> Stashed changes
